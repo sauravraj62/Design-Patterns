@@ -1,0 +1,19 @@
+1. Object
+	- Objects represent a real-world entity and the basic building block of OOP.
+2. Class
+	- Class is the prototype or blueprint of an object. It is a template definition of the attributes and methods of an object.
+3. Principles of OOPs
+	a. Encapsulation
+		- Encapsulation is the mechanism of binding the data together and hiding it from the outside world. Encapsulation is achieved when each object keeps its state private so that other objects don’t have direct access to its state.
+	b. Abstraction
+		- Abstraction helps in hiding internal implementation details of objects and only revealing operations that are relevant to other objects.
+	c. Inheritance
+		- Inheritance is the mechanism of creating new classes from existing ones.
+	d. Polymorphism
+		- Polymorphism is the ability of an object to take different forms and thus, depending upon the context, to respond to the same message in different ways.
+
+4. The process of OO analysis and design can be described as:
+	a. Identifying the objects in a system.
+	b. Defining relationships between objects.
+	c. Establishing the interface of each object.
+	d. Making a design, which can be converted to executables using OO languages
