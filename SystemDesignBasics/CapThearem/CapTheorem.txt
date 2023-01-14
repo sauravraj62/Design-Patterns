@@ -1,0 +1,11 @@
+Video source : https://www.youtube.com/watch?v=BHqjEjzAicA
+
+Consistency : All the nodes/server will have consistent data at any particular instance.
+
+Availability : All the nodes/server will be available to serve requests from clients
+
+Partition tolerance : The ability of a system to perform even if there is a network partition in the system (links between nodes/servers are broken because of network or other error).
+Nodes/Servers will not able to connect with other nodes/server because of network failures.
+
+If there is network partition in a system, the system must choose either Consistency or availability.
+
