@@ -1,0 +1,39 @@
+Defines a one-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
+Also known as Dependents, Publish-Subscribe
+
+The observer pattern describes how to establish these relationships. The key objects in this pattern are subject and observer.
+All observers are notified whenever the subject undergoes a change in state. In response each observer will query the state if the subject to synchronize.
+
+The subject sends out these notifications without having to know who its observers are.
+
+When to use this?
+1. When a change to one object requires changing others and you don't know how many objects need to be changed.
+2. When an object should be able to notify other objects without making assumptions anout who these objects are. In other words, you
+don't want these objects tightly coupled.
+
+Participants
+1. Subject
+    Knows its observers. Any number of observer objects may observe a subject.
+    Provides an interface for attaching and detaching observer objects.
+2. Observer
+    Defines an updating interface for objects that should be notified of changes in a subject.
+3. Concrete Subject
+    Stores state of interest to ConcreteObserver objects
+    Sends a notification to it's observers when its state changes
+4. Concrete Observer
+    Maintains a reference to a ConcreteSubject object
+    Stores state that stay consistent with the subject's
+    Implements the Observer updating interface to keep its state consistent with the subject's
+
+
+Specifying modifications of interest explicitly : you can improve update efficiency by extending the subject's registration interface to allow registering observers only for specific events of interest.
+    void Subject::Attach(Observer*, Aspect& interest)
+    void Observer::Update(Subject*, Aspect& interest)
+
+Change Manager : When the dependency relationship between subjects and observers is particularly complex, Change Manager is user to maintain these relationsips.
+
+Two types of Change Manager :
+1. SimpleChangeManager : Update all observers of each subject. It's preferred when multiple updates on a observer is not an issue.
+DAGChangeManager : It handles Directed Acyclic graph of dependencies between subjects and their observers. It's preferred when observers observe more than one subject to reduce redundant updates.
+DAGChangeManager ensures the observer receives just one update.

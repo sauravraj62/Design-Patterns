@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4405a3b7-11a6-4e46-baad-7ea2400fcf49" name="Changes" comment="" />
+    <list default="true" id="4405a3b7-11a6-4e46-baad-7ea2400fcf49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/BinaryObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/HexaObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/Intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/ObserverPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/OctalObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +42,7 @@
       <recent name="$PROJECT_DIR$/DesignPatterns/Creational/FactoryPattern" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DesignPatterns/Behavioural" />
       <recent name="$PROJECT_DIR$/DesignPatterns/Creational/FactoryPattern" />
     </key>
   </component>
