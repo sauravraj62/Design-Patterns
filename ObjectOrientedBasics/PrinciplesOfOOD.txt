@@ -1,0 +1,25 @@
+1. Encapsulation
+2. Abstraction
+3. Inheritance (Is-A relationship)
+4. Polymorphism
+
+Data hiding can be divided into two primary components:
+1. Encapsulation
+2. Abstraction
+
+Encapsulation :
+Encapsulation is usually done to hide the state and representation of an object from the outside. A class can be thought of as a capsule with methods and attributes inside it.
+When encapsulating classes, a good convention is to declare all variables of a class private. This will restrict direct access by the code outside that class.
+
+Abstraction :
+It focuses only on revealing the necessary details of a system and hiding irrelevant information to minimize its complexity.
+In simpler words, we can say that it means to show what an object does and how it hides.
+
+Polymorphism :
+Static polymorphism : Static polymorphism is also known as compile-time polymorphism, and it is achieved by method overloading or operator overloading.
+
+Dynamic polymorphism : Dynamic polymorphism is the mechanism that defines the methods with the same name, return type, and parameters in the base class and derived classes.
+Hence, the call to an overridden method is decided at runtime. That is why dynamic polymorphism is also known as runtime polymorphism. It is achieved by method overriding.
+
+
+

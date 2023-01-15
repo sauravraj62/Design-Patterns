@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4405a3b7-11a6-4e46-baad-7ea2400fcf49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/BinaryObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/HexaObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/Intro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/ObserverPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/OctalObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Behavioural/ObserverPattern/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedBasics/InheritanceTypes/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedBasics/InheritanceTypes/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedBasics/InheritanceTypes/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedBasics/InheritanceTypes/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedBasics/InheritanceTypes/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedBasics/PrinciplesOfOOD.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedBasics/Solid_Principles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedBasics/StaticPolyVsDynamicPoly.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
