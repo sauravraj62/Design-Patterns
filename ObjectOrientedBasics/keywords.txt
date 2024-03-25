@@ -4,7 +4,7 @@
 	- Class is the prototype or blueprint of an object. It is a template definition of the attributes and methods of an object.
 3. Principles of OOPs
 	a. Encapsulation
-		- Encapsulation is the mechanism of binding the data together and hiding it from the outside world. Encapsulation is achieved when each object keeps its state private so that other objects don’t have direct access to its state.
+		- Encapsulation is the mechanism of binding the data together and hiding it from the outside world. Encapsulation is achieved when each object keeps its state private so that other objects donï¿½t have direct access to its state.
 	b. Abstraction
 		- Abstraction helps in hiding internal implementation details of objects and only revealing operations that are relevant to other objects.
 	c. Inheritance
@@ -17,3 +17,5 @@
 	b. Defining relationships between objects.
 	c. Establishing the interface of each object.
 	d. Making a design, which can be converted to executables using OO languages
+
+5. 
