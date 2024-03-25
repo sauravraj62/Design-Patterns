@@ -1,0 +1,61 @@
+Suppose we have a NotificationService class that is responsible for sending notifications. 
+Initially, it directly depends on a specific implementation of a notification sender, such as EmailSender.
+
+// Low-level module
+class EmailSender {
+    public void sendEmail(String message) {
+        // Code to send email
+        System.out.println("Email sent: " + message);
+    }
+}
+
+// High-level module
+class NotificationService {
+    private EmailSender emailSender = new EmailSender();
+
+    public void sendNotification(String message) {
+        emailSender.sendEmail(message);
+    }
+}
+
+
+In this scenario, the NotificationService class depends directly on the EmailSender class. 
+This violates the Dependency Inversion Principle because high-level modules should not depend on low-level modules.
+
+To adhere to the Dependency Inversion Principle, we introduce an abstraction, such as an interface, that both the high-level and low-level modules depend on:
+
+interface MessageSender {
+    void sendMessage(String message);
+}
+
+class EmailSender implements MessageSender {
+    @Override
+    public void sendMessage(String message) {
+        // Code to send email
+        System.out.println("Email sent: " + message);
+    }
+}
+
+class NotificationService {
+    private MessageSender messageSender;
+
+    // Constructor injection
+    public NotificationService(MessageSender messageSender) {
+        this.messageSender = messageSender;
+    }
+
+    public void sendNotification(String message) {
+        messageSender.sendMessage(message);
+    }
+}
+
+
+Now, the NotificationService class depends on the MessageSender interface, which is a higher-level abstraction. 
+The EmailSender class implements this interface, and it's a lower-level detail. This adheres to the Dependency Inversion Principle 
+because both high-level and low-level modules depend on abstractions (MessageSender), not on concrete implementations.
+
+This approach allows for easier swapping of implementations. For example, if we want to change the notification method from email to SMS, 
+we can create a new SMSSender class that implements the MessageSender interface, and then inject it into the NotificationService class without 
+modifying its code. This makes the system more flexible, maintainable, and testable.
+
+

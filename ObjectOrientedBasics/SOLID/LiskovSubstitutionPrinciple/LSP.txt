@@ -1,0 +1,3 @@
+It states that the objects of a subclass should behave the same way as the objects of the 
+superclass, such that they are replaceable. This rule generally applies to abstraction concepts 
+like inheritance and polymorphism.
